@@ -173,6 +173,16 @@ section {
     margin: auto 0;
 }
 
+.profile-pic {
+    width: 350px;            /* Set the desired width */
+    height: 350px;           /* Ensure the height matches the width for a perfect circle */
+    border-radius: 50%;      /* Makes the image circular */
+    object-fit: cover;       /* Ensures the image is proportionally scaled */
+    object-position: center;    /* Adjusts the position to include more of the top of the picture */
+    display: block;          /* Prevents any inline spacing issues */
+    margin: 50px auto 0 auto;
+}
+
 .section__text{
     align-self: center;
     text-align: center;
