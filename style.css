@@ -65,6 +65,22 @@ a:hover{
     cursor: default;
 }
 
+.nav-button {
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: block;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: .4rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
 /* HAMBURGER */
 
 #hamburger-nav {
